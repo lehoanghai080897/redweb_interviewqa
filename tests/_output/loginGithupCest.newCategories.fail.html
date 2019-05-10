@@ -1,0 +1,136 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" dir="ltr"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Hotel Du Hoc La Niem Vui - Administration</title>
+	<link href="/hotel/administrator/templates/isis/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/hotel/media/jui/css/chosen.css?c94278c79505ce422ffb4f0327c9fbc0" rel="stylesheet" />
+	<link href="/hotel/administrator/templates/isis/css/template.css?c94278c79505ce422ffb4f0327c9fbc0" rel="stylesheet" />
+	<style>
+
+	@media (max-width: 480px) {
+		.view-login .container {
+			margin-top: -170px;
+		}
+		.btn {
+			font-size: 13px;
+			padding: 4px 10px 4px;
+		}
+	}
+	</style>
+	<script type="application/json" class="joomla-script-options loaded">{"csrf.token":"ca38ac763ad5d4072011d5ccd33bd331","system.paths":{"root":"\/hotel","base":"\/hotel\/administrator"},"system.keepalive":{"interval":840000,"uri":"\/hotel\/administrator\/index.php"}}</script>
+	<script src="/hotel/media/system/js/core.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<!--[if lt IE 9]><script src="/hotel/media/system/js/polyfill.event.js?c94278c79505ce422ffb4f0327c9fbc0"></script><![endif]-->
+	<script src="/hotel/media/system/js/keepalive.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<script src="/hotel/media/jui/js/jquery.min.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<script src="/hotel/media/jui/js/jquery-noconflict.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<script src="/hotel/media/jui/js/jquery-migrate.min.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<script src="/hotel/media/jui/js/bootstrap.min.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<script src="/hotel/media/jui/js/chosen.jquery.min.js?c94278c79505ce422ffb4f0327c9fbc0"></script>
+	<!--[if lt IE 9]><script src="/hotel/media/jui/js/html5.js?c94278c79505ce422ffb4f0327c9fbc0"></script><![endif]-->
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Type or select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		}
+	});
+	
+	</script>
+
+</head>
+<body class="site com_login view-login layout-default task- itemid- ">
+	<!-- Container -->
+	<div class="container">
+		<div id="content">
+			<!-- Begin Content -->
+			<div id="element-box" class="login well">
+									<img src="/hotel/administrator/templates/isis/images/joomla.png" alt="Hotel Du Hoc La Niem Vui" />
+								<hr />
+				<div id="system-message-container">
+	</div>
+
+				<form action="/hotel/administrator/index.php" method="post" id="form-login" class="form-inline">
+	<fieldset class="loginform">
+		<div class="control-group">
+			<div class="controls">
+				<div class="input-prepend input-append">
+					<span class="add-on">
+						<span class="icon-user hasTooltip" title="" data-original-title="Username"></span>
+						<label for="mod-login-username" class="element-invisible">
+							Username						</label>
+					</span>
+					<input name="username" tabindex="1" id="mod-login-username" type="text" class="input-medium" placeholder="Username" size="15" autofocus="true" />
+					<a href="http://localhost/hotel/index.php?option=com_users&amp;view=remind" class="btn width-auto hasTooltip" title="" data-original-title="Forgot your username?">
+						<span class="icon-help"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<div class="input-prepend input-append">
+					<span class="add-on">
+						<span class="icon-lock hasTooltip" title="" data-original-title="Password"></span>
+						<label for="mod-login-password" class="element-invisible">
+							Password						</label>
+					</span>
+					<input name="passwd" tabindex="2" id="mod-login-password" type="password" class="input-medium" placeholder="Password" size="15" />
+					<a href="http://localhost/hotel/index.php?option=com_users&amp;view=reset" class="btn width-auto hasTooltip" title="" data-original-title="Forgot your password?">
+						<span class="icon-help"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+							<div class="control-group">
+				<div class="controls">
+					<div class="input-prepend">
+						<span class="add-on">
+							<span class="icon-comment hasTooltip" title="" data-original-title="Language"></span>
+							<label for="lang" class="element-invisible">
+								Language							</label>
+						</span>
+						<select id="lang" name="lang" class="advancedSelect" tabindex="-1" style="display: none;">
+	<option value="" selected="selected">Language - Default</option>
+	<option value="en-GB">English (United Kingdom)</option>
+	<option value="vi-VN">Vietnamese (Vietnam)</option>
+</select><div class="chzn-container chzn-container-single chzn-container-single-nosearch" style="width: 220px;" title="" id="lang_chzn"><a class="chzn-single"><span>Language - Default</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off" readonly="" tabindex="4" /></div><ul class="chzn-results"></ul></div></div>
+					</div>
+				</div>
+			</div>
+				<div class="control-group">
+			<div class="controls">
+				<div class="btn-group">
+					<button tabindex="5" class="btn btn-primary btn-block btn-large login-button">
+						<span class="icon-lock icon-white"></span> Log in					</button>
+				</div>
+			</div>
+		</div>
+		<input type="hidden" name="option" value="com_login" />
+		<input type="hidden" name="task" value="login" />
+		<input type="hidden" name="return" value="aW5kZXgucGhw" />
+		<input type="hidden" name="ca38ac763ad5d4072011d5ccd33bd331" value="1" />	</fieldset>
+</form>
+
+			</div>
+			<noscript>
+				Warning! JavaScript must be enabled for proper operation of the Administrator Backend.			</noscript>
+			<!-- End Content -->
+		</div>
+	</div>
+	<div class="navbar navbar-fixed-bottom hidden-phone">
+		<p class="pull-right">
+			© 2019 Hotel Du Hoc La Niem Vui		</p>
+		<a class="login-joomla hasTooltip" href="https://www.joomla.org" target="_blank" rel="noopener noreferrer" title="" data-original-title="Joomla is free software released under the GNU General Public License."><span class="icon-joomla"></span></a>
+		<a href="http://localhost/hotel/" target="_blank" class="pull-left"><span class="icon-out-2"></span>Go to site home page</a>
+	</div>
+	
+
+
+</body></html>
