@@ -14,6 +14,17 @@ use Page\Acceptance\homePage as hotel;
 class HomeSteps extends \AcceptanceTester
 {
     /**
+     * login
+     */
+    public function login($name , $pass)
+    {
+        $I= $this;
+        $I->amOnPage(hotel::$URL);
+        $I->fillField(hotel::$userName, $name);
+        $I->fillField(hotel::$passWord, $pass);
+        $I->click(hotel::$loginButton);
+    }
+    /**
      * creat new Categories
      */
     public function newCategories($name)
@@ -21,6 +32,7 @@ class HomeSteps extends \AcceptanceTester
         $I= $this;
         $I->amOnPage(hotel::$URL);
         $I->click(hotel::$categories);
+        $I->click(hotel::$newButtonCategories);
         $I->fillField(hotel::$newTitleCategories , $name);
         $I->click(hotel::$saveCategories);
     }
@@ -36,11 +48,8 @@ class HomeSteps extends \AcceptanceTester
         $I->click(hotel::$newArticles);
         $I->fillField(hotel::$titleArticles, $name);
         $I->click(hotel::$showCategory);
-        $I->click('hoanghai');
+        $I->click('lehoanghai2');
         $I->click(hotel::$saveArticles);
-
-
-
     }
 
 

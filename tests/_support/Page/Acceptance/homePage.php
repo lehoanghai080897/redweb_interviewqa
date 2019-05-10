@@ -12,44 +12,50 @@ namespace Page\Acceptance;
 class homePage
 {
     /**
+     * login . xPath of username , password , loginbutton
+     */
+    public static $userName='//input[@id="mod-login-username"]';
+    public static $passWord='//input[@id="mod-login-password"]';
+    public static $loginButton='//form[@id="form-login"]/fieldset/div[4]/div/div';
+    /**
      *
      */
     public static $URL='/';
 
     /**
-     * @var string
+     *  xpath of Articles
      */
-    public static $articles= '//*[@id="content"]/div/div/div[2]/div[1]/div/div/div/ul[1]/li[1]/a/span[2]';
+    public static $articles= '(//span[@class="j-links-link"])[2]';
     /**
-     * @var string
+     * xpath of Categories
      */
-    public static $categories = '//*[@id="content"]/div/div/div[2]/div[1]/div/div/div/ul[1]/li[3]/a';
+    public static $categories = '(//span[@class="j-links-link"])[3]';
     /**
-     *
+     * xpath of button new Categories
      */
     public static $newButtonCategories = '//*[@id="toolbar-new"]/button';
     /**
-     *
+     * xpath new title of categories
      */
     public static $newTitleCategories = '//input[@id="jform_title"]';
     /**
-     *
+     * xpath save Categories
      */
     public static $saveCategories='//div[@id="toolbar-apply"]';
     /**
-     *
+     * xpath new Aritcles
      */
     public static $newArticles = '//div[@id="toolbar-new"]';
     /**
-     *
+     * xpath title of Articles
      */
     public static $titleArticles = '//input[@id="jform_title"]';
     /**
-     *
+     * xpath show Category
      */
     public static $showCategory='//div[@id="jform_catid_chzn"]';
     /**
-     *
+     * xpath save Articles
      */
     public static $saveArticles='//div[@id="toolbar-apply"]/button';
 

@@ -2,38 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7101ea91-e188-4ece-b934-4d710c858932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Page/Acceptance/loginGithupPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/loginGithupSteps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/acceptance/homeCest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/acceptance/loginGithupCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/automation login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automation login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_output/HomeCest.newArticle.fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_output/HomeCest.newArticle.fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_output/HomeCest.newCategories.fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_output/HomeCest.newCategories.fail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_output/failed" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_output/failed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Acceptance/FirstPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Acceptance/FirstPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/acceptance.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/acceptance/LG_01Cest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/LG_01Cest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/CHANGELOG-2.5.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/CHANGELOG-2.5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Codecept.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Codecept.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/GroupManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/GroupManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/InnerBrowser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/InnerBrowser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/FTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/FTP.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Lib/GroupManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Lib/GroupManagerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/web/WebDriverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/web/WebDriverTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Generic.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Generic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/ChangeLog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_output/failed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Acceptance/FirstPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Page/Acceptance/loginGithupPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/FirstStep.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/LG_01Step.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_support/Step/Acceptance/loginGithupSteps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/FirstCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/LG_01Cest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/homeCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/loginGithupCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/HomeCest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="522">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/HomeCest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,17 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance/loginGithupCest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="561">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -92,9 +78,10 @@
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/loginGithupSteps.php" />
         <option value="$PROJECT_DIR$/tests/acceptance.suite.yml" />
         <option value="$PROJECT_DIR$/tests/acceptance/homeCest.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/loginGithupCest.php" />
         <option value="$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php" />
         <option value="$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/loginGithupCest.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/HomeCest.php" />
       </list>
     </option>
   </component>
@@ -181,64 +168,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Page" type="462c0819:PsiDirectoryNode" />
               <item name="Acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="_support" type="462c0819:PsiDirectoryNode" />
               <item name="Step" type="462c0819:PsiDirectoryNode" />
               <item name="Acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-login" type="462c0819:PsiDirectoryNode" />
+              <item name="redweb_interviewqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redweb_interviewqa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -246,6 +226,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,17 +277,18 @@
       <workItem from="1557452716468" duration="230000" />
       <workItem from="1557453132032" duration="5182000" />
       <workItem from="1557475855564" duration="2651000" />
+      <workItem from="1557504016461" duration="5751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46225000" />
+    <option name="totallyTimeSpent" value="51976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21744967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,13 +365,6 @@
     <entry file="file://$PROJECT_DIR$/tests/unit.suite.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/loginGithupSteps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/loginGithupPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -404,41 +379,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/homeCest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/LG_01Cest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#6#47#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php">
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/loginGithupSteps.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="488">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/loginGithupCest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="544">
+          <caret line="37" lean-forward="true" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/_support/Page/Acceptance/homePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="522">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/Step/Acceptance/HomeSteps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/HomeCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
